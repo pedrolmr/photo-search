@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
 import './App.css';
 
+import SearchBar from './components/SearchBar';
+
 class App extends Component {
+
+  formSubmit(search){
+    console.log(search);
+  }
+
   render() {
     return (
       <div className="App">
-      <h1>hello</h1>
+        <SearchBar onSubmit={this.formSubmit}/>
       </div>
     );
   }
