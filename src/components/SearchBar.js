@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 class SearchBar extends Component{
-    state = {search: ''}
+    state = { search: '' }
 
     changeHandler = event => {
         this.setState({ [event.target.name]: event.target.value });
