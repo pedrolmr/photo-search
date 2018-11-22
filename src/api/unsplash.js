@@ -7,5 +7,3 @@ export default axios.create({
         Authorization: `Client-ID ${API_KEY}`
     }
 });
-console.log(process.env)
-console.log(API_KEY)
